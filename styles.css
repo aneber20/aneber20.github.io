@@ -1,0 +1,77 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Container for the layout */
+.container {
+    display: flex;
+    padding: 20px;
+    padding-left: 100px;
+}
+
+/* Sidebar with profile picture and links */
+.sidebar {
+    width: 200px;
+    text-align: center;
+    position: sticky;
+    top: 20px; /* Adjust to set the sticky start position */
+    align-self: start; /* Aligns the sidebar at the top */
+    margin-right: 20px;
+}
+
+.sidebar h1 {
+    margin-bottom: 20px;
+}
+
+.profile-picture {
+    width: 100%;
+    border-radius: 50%; /* Makes the photo circular */
+}
+
+.social-links {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.social-links a {
+    color: whitesmoke;
+    text-decoration: none;
+    margin: 5px 0;
+}
+
+.social-links a:hover {
+    color: #0077b5; /* Optional: Change color on hover */
+}
+
+/* About section */
+.about-section {
+    flex: 1; /* Takes up remaining space */
+}
+
+.about-section h1 {
+    margin-bottom: 10px;
+}
+
+.about-section p {
+    line-height: 1.6;
+}
+
+/* Center the sidebar initially */
+body {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    flex-direction: column;
+    background-image: radial-gradient(black, gray); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
