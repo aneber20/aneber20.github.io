@@ -1,6 +1,14 @@
+title: "Adam Neber"  # The title of your site
+description: "Adam Neber's personal website"  # A brief description
+author: "Adam Neber" 
+email: adam.j.neber@gmail.com  
 
+baseurl: ""  
+url: "https://aneber20.github.io"  # from pages
 
-
+social:
+  github: "https://github.com/aneber20"
+  linkedin: "https://linkedin.com/in/adam-neber"
 
 
 

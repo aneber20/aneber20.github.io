@@ -10,31 +10,43 @@
     display: flex;
     padding: 20px;
     padding-left: 100px;
+    justify-content: space-between;
 }
 
 /* Sidebar with profile picture and links */
 .sidebar {
-    width: 200px;
+    width: 300px;
     text-align: center;
-    position: sticky;
+    position:sticky;
     top: 20px; /* Adjust to set the sticky start position */
-    align-self: start; /* Aligns the sidebar at the top */
     margin-right: 20px;
+    align-self: flex-start;
+    margin-top: 200px;
 }
 
 .sidebar h1 {
     margin-bottom: 20px;
+    font-size: 48px;
+    text-align: center;
+}
+
+.sidebar p {
+    font-size: 24px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
 }
 
 .profile-picture {
-    width: 100%;
-    border-radius: 50%; /* Makes the photo circular */
+    width: 75%;
+    border-radius: 25%; 
 }
 
 .social-links {
     margin-top: 15px;
     display: flex;
     flex-direction: column;
+    font-size: 24px;
 }
 
 .social-links a {
@@ -44,20 +56,31 @@
 }
 
 .social-links a:hover {
-    color: #0077b5; /* Optional: Change color on hover */
+    color: #0077b5; 
 }
 
 /* About section */
 .about-section {
     flex: 1; /* Takes up remaining space */
+    margin-left: 15%;
+    margin-top: 200px;
 }
 
 .about-section h1 {
     margin-bottom: 10px;
+    padding-bottom: 10px; 
+    border-bottom: 2px solid white; 
+    font-size: 48px;
+    width: 60%;
+    text-align: left;
 }
 
 .about-section p {
     line-height: 1.6;
+    font-size: 24px;
+    margin-bottom: 50px;
+    width: 60%;
+    text-align: left;
 }
 
 /* Center the sidebar initially */
