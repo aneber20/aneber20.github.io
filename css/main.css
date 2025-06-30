@@ -2544,4 +2544,10 @@ footer .copyright span:last-child::after {
 	background: #000000;
 }
 
+@media only screen and (max-width: 1024px) {
+    #intro {
+        background-attachment: scroll;
+    }
+}
+
 /*# sourceMappingURL=main.css.map */
